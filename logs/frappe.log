@@ -1,0 +1,30 @@
+2025-08-11 10:22:08,113 ERROR frappe New Exception collected in error log
+Site: myhelpdesk.local
+Form Dict: {'query': 'How to ', 'cmd': 'helpdesk.api.article.search'}
+2025-08-11 10:22:10,008 ERROR frappe New Exception collected in error log
+Site: myhelpdesk.local
+Form Dict: {'query': 'How to modify the ', 'cmd': 'helpdesk.api.article.search'}
+2025-08-11 10:22:17,775 ERROR frappe New Exception collected in error log
+Site: myhelpdesk.local
+Form Dict: {'query': 'How to modify the source code', 'cmd': 'helpdesk.api.article.search'}
+2025-08-11 10:22:32,152 ERROR frappe New Exception collected in error log
+Site: myhelpdesk.local
+Form Dict: {'query': 'Test', 'cmd': 'helpdesk.api.article.search'}
+2025-08-11 10:23:48,595 ERROR frappe New Exception collected in error log
+Site: myhelpdesk.local
+Form Dict: {'query': 'Test', 'cmd': 'helpdesk.api.article.search'}
+2025-08-11 10:30:06,398 ERROR frappe Error while inserting deferred Error Log record: Error Log e2vp15ue9o: 'Title' (unknown command `FT.SEARCH`, with args beginning with: `_af789cbbaefbfdfb|helpdesk_idx`, ``, `SCORER`, `DISMAX`, `WITHSCORES`, `SUMMARIZE`, `FIELDS`, `1`, `description`, `HIGHLIGHT`, ) will get truncated, as max characters allowed is 140
+Site: myhelpdesk.local
+Form Dict: {}
+2025-08-11 10:30:06,402 ERROR frappe Error while inserting deferred Error Log record: Error Log e309akdas8: 'Title' (unknown command `FT.SEARCH`, with args beginning with: `_af789cbbaefbfdfb|helpdesk_idx`, `%modify%`, `SCORER`, `DISMAX`, `WITHSCORES`, `SUMMARIZE`, `FIELDS`, `1`, `description`, `HIGHL`, ) will get truncated, as max characters allowed is 140
+Site: myhelpdesk.local
+Form Dict: {}
+2025-08-11 10:30:06,408 ERROR frappe Error while inserting deferred Error Log record: Error Log e30thfs12n: 'Title' (unknown command `FT.SEARCH`, with args beginning with: `_af789cbbaefbfdfb|helpdesk_idx`, `%modify% %source% %code%`, `SCORER`, `DISMAX`, `WITHSCORES`, `SUMMARIZE`, `FIELDS`, `1`, `desc`, ) will get truncated, as max characters allowed is 140
+Site: myhelpdesk.local
+Form Dict: {}
+2025-08-11 10:30:06,411 ERROR frappe Error while inserting deferred Error Log record: Error Log e30st23a2f: 'Title' (unknown command `FT.SEARCH`, with args beginning with: `_af789cbbaefbfdfb|helpdesk_idx`, `%test%`, `SCORER`, `DISMAX`, `WITHSCORES`, `SUMMARIZE`, `FIELDS`, `1`, `description`, `HIGHLIG`, ) will get truncated, as max characters allowed is 140
+Site: myhelpdesk.local
+Form Dict: {}
+2025-08-11 10:30:06,413 ERROR frappe Error while inserting deferred Error Log record: Error Log e303ru23d7: 'Title' (unknown command `FT.SEARCH`, with args beginning with: `_af789cbbaefbfdfb|helpdesk_idx`, `%test%`, `SCORER`, `DISMAX`, `WITHSCORES`, `SUMMARIZE`, `FIELDS`, `1`, `description`, `HIGHLIG`, ) will get truncated, as max characters allowed is 140
+Site: myhelpdesk.local
+Form Dict: {}
