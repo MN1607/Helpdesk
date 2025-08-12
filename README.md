@@ -1,2 +1,0 @@
-# Helpdesk
-Frappe framework helpdesk
